@@ -3,3 +3,8 @@
 data/
 *.csv
 *.parquet
+
+# Datasets (do not commit)
+data/
+*.csv
+*.parquet
