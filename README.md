@@ -298,7 +298,7 @@ pub async fn shuttle_main() -> shuttle_axum::ShuttleAxum {
 
 ## License
 
-Choose a license and add `LICENSE` (e.g., MIT or Apache-2.0).
+MIT License.
 
 ---
 
@@ -309,55 +309,4 @@ Choose a license and add `LICENSE` (e.g., MIT or Apache-2.0).
 * Shuttle for Rust-native deployment
 
 ---
-
-# How to create the GitHub repo and push (CLI)
-
-From the project root (`pandas-vs-polars-benchmark/`):
-
-```bash
-# 1) Initialize (if not already)
-git init
-git add .
-git commit -m "Initial commit: Pandas vs Polars ETL benchmark"
-
-# 2) Create a remote repo
-# Option A: Using GitHub CLI (recommended)
-#   - install: https://cli.github.com/
-gh repo create pandas-vs-polars-benchmark --public --source=. --remote=origin --push
-
-# Option B: Manually (no gh)
-#   - create an empty repo on GitHub named `pandas-vs-polars-benchmark`
-#   - then:
-git remote add origin https://github.com/<YOUR_USERNAME>/pandas-vs-polars-benchmark.git
-git branch -M main
-git push -u origin main
-```
-
-**Optional:** Add a `.gitignore` at repo root:
-
-```
-# Python
-__pycache__/
-*.pyc
-.venv/
-.env
-
-# Rust
-target/
-
-# Data & results
-data/
-results/*.parquet
-results/*.csv
-results/*.json
-
-# OS/editor
-.DS_Store
-.idea/
-.vscode/
-```
-
----
-
-If you want, I can also generate a **shorter landing-page README** for GitHub and move the deep-dive into `docs/post.md`.
 
