@@ -1,0 +1,17 @@
+{
+  "peak_memory_mb": 4694.58203125,
+  "after_clean_memory_mb": 6.50390625,
+  "aggregate_time": 13.802542449,
+  "expensive_trips_count": 0.0,
+  "clean_time": 0.000090695,
+  "weekend_trips_count": 0.0,
+  "long_trips_count": 0.0,
+  "premium_trips_count": 0.0,
+  "load_time": 0.000011187,
+  "rush_hour_trips_count": 0.0,
+  "after_load_memory_mb": 6.00390625,
+  "after_sort_filter_memory_mb": 4694.58203125,
+  "after_aggregate_memory_mb": 4619.4375,
+  "rows_after_cleaning": 0.0,
+  "sort_filter_time": 5.25298466
+}

@@ -1,0 +1,5 @@
+Operation,Pandas_Time_s,Polars_Time_s,Speedup,Time_Saved_s
+Data Loading,79.86,0.12,691.1x,79.74
+Data Cleaning,11.40,0.15,77.6x,11.26
+Aggregations,9.36,72.99,0.1x,-63.63
+Sort & Filter,10.20,4.28,2.4x,5.92

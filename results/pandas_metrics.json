@@ -1,0 +1,14 @@
+{
+  "load_time": 32.50162220001221,
+  "load_memory": 4658.83984375,
+  "rows_loaded": 12748986,
+  "clean_time": 11.096364498138428,
+  "rows_after_cleaning": 12420360,
+  "aggregate_time": 9.209866285324097,
+  "sort_filter_time": 9.41779088973999,
+  "long_trips_count": 576203,
+  "expensive_trips_count": 353611,
+  "rush_hour_trips_count": 3775569,
+  "weekend_trips_count": 3862022,
+  "premium_trips_count": 299614
+}
