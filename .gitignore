@@ -1,0 +1,5 @@
+
+# Datasets (do not commit)
+data/
+*.csv
+*.parquet
